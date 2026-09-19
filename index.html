@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cambridge Coffee Shops</title>
+<style>
+  :root {
+    --bg: #faf6f1;
+    --card-bg: #ffffff;
+    --text: #2e2019;
+    --muted: #6b5a4e;
+    --accent: #6f4e37;
+    --accent-light: #c9a27e;
+    --border: #e8ddd0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 3rem 1.5rem 2.5rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2.2rem;
+  }
+  header p {
+    margin: 0;
+    color: #f0e4d8;
+    font-size: 1.05rem;
+  }
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  }
+  .card h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1.25rem;
+    color: var(--accent);
+  }
+  .card .address {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .card .address::before {
+    content: "📍 ";
+  }
+  .card p.desc {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+  .tag {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.75rem;
+    background: #f3e6d8;
+    color: var(--accent);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>☕ Cambridge Coffee Shops</h1>
+  <p>A curated guide to independent cafés in Cambridge, UK</p>
+</header>
+<main>
+  <div class="grid">
+
+    <div class="card">
+      <h2>Hot Numbers Coffee</h2>
+      <div class="address">4 Gwydir Street, Cambridge CB1 2LG</div>
+      <p class="desc">In-house roastery and a Mill Road institution, with a second bar on Trumpington Street. Known for excellent single-origin espresso.</p>
+      <span class="tag">Roastery</span>
+    </div>
+
+    <div class="card">
+      <h2>Espresso Library</h2>
+      <div class="address">210 East Road, Cambridge CB1 1BG</div>
+      <p class="desc">Bright, minimalist café serving specialty coffee alongside brunch and light lunches — popular with students and remote workers.</p>
+      <span class="tag">Brunch</span>
+    </div>
+
+    <div class="card">
+      <h2>Bould Brothers Coffee</h2>
+      <div class="address">1 Bene't Street, Cambridge CB2 3QN</div>
+      <p class="desc">Cosy, tucked-away spot near King's Parade serving thoughtfully sourced coffee in a relaxed, no-frills setting.</p>
+      <span class="tag">City Centre</span>
+    </div>
+
+    <div class="card">
+      <h2>Indigo Coffee House</h2>
+      <div class="address">8 St Edward's Passage, Cambridge CB2 3PJ</div>
+      <p class="desc">A quirky, colourful hideaway just off King's Parade, beloved for its all-day breakfasts and laid-back vibe.</p>
+      <span class="tag">Breakfast</span>
+    </div>
+
+    <div class="card">
+      <h2>Stir Coffee House</h2>
+      <div class="address">Norfolk Street, Cambridge CB1 2LD</div>
+      <p class="desc">Community-run café on Norfolk Street offering great coffee alongside a warm, welcoming neighbourhood atmosphere.</p>
+      <span class="tag">Community</span>
+    </div>
+
+    <div class="card">
+      <h2>Black Cat Café</h2>
+      <div class="address">62 Mill Road, Cambridge CB1 2AS</div>
+      <p class="desc">Cheerful vegetarian café on Mill Road, serving quality coffee alongside hearty homemade food.</p>
+      <span class="tag">Vegetarian</span>
+    </div>
+
+    <div class="card">
+      <h2>CB2 Bicycle Café</h2>
+      <div class="address">47 Mill Road, Cambridge CB1 2AS</div>
+      <p class="desc">A cycling-themed café-bar on Mill Road, pouring good coffee by day and drinks by night.</p>
+      <span class="tag">Mill Road</span>
+    </div>
+
+    <div class="card">
+      <h2>Fitzbillies</h2>
+      <div class="address">51-52 Trumpington Street, Cambridge CB2 1RG</div>
+      <p class="desc">Historic Cambridge bakery-café dating back to 1922, famous for its Chelsea buns as well as its coffee.</p>
+      <span class="tag">Historic</span>
+    </div>
+
+    <div class="card">
+      <h2>Origin8</h2>
+      <div class="address">64 Regent Street, Cambridge CB2 1DP</div>
+      <p class="desc">Relaxed café near the Grafton Centre serving specialty coffee, brunch dishes, and fresh bakes.</p>
+      <span class="tag">Brunch</span>
+    </div>
+
+    <div class="card">
+      <h2>Afternoon Tease</h2>
+      <div class="address">Burleigh Street, Cambridge CB1 1DG</div>
+      <p class="desc">A cosy tearoom and café serving coffee, loose-leaf tea, and homemade cakes in the city centre.</p>
+      <span class="tag">Tearoom</span>
+    </div>
+
+  </div>
+</main>
+<footer>
+  <p>Built with ☕ for coffee lovers exploring Cambridge, UK. Listings are for informational purposes — please verify opening hours before visiting.</p>
+</footer>
+</body>
+</html>
