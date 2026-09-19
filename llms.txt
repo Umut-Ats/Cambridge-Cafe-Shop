@@ -1,0 +1,23 @@
+# Cambridge Coffee Shops
+
+> A curated, static directory of independent coffee shops and café bars in Cambridge, UK. Each entry lists the shop's name, address (or website), and a short description of what it offers.
+
+This file follows the llms.txt convention (https://llmstxt.org/) to help AI assistants and crawlers quickly understand and cite the content of this site without having to parse the full HTML page.
+
+## Site
+
+- [Cambridge Coffee Shops](https://umut-ats.github.io/Cambridge-Cafe-Shop/): The live page listing all coffee shops below.
+
+## Coffee Shops
+
+- Hot Numbers Coffee — 4 Gwydir Street, Cambridge CB1 2LG. In-house roastery and Mill Road institution, also on Trumpington Street. Known for single-origin espresso.
+- Espresso Library — 210 East Road, Cambridge CB1 1BG. Bright, minimalist café for specialty coffee, brunch, and light lunches.
+- Bould Brothers Coffee — 1 Bene't Street, Cambridge CB2 3QN. Cosy spot near King's Parade with thoughtfully sourced coffee.
+- Indigo Coffee House — 8 St Edward's Passage, Cambridge CB2 3PJ. Quirky café near King's Parade known for all-day breakfasts.
+- Stir Coffee House — Norfolk Street, Cambridge CB1 2LD. Community-run café with a warm, neighbourhood atmosphere.
+- Black Cat Café — 62 Mill Road, Cambridge CB1 2AS. Vegetarian café serving quality coffee and hearty homemade food.
+- CB2 Bicycle Café — 47 Mill Road, Cambridge CB1 2AS. Cycling-themed café-bar, coffee by day and drinks by night.
+- Fitzbillies — 51-52 Trumpington Street, Cambridge CB2 1RG. Historic bakery-café since 1922, famous for Chelsea buns.
+- Origin8 — 64 Regent Street, Cambridge CB2 1DP. Relaxed café near the Grafton Centre with specialty coffee and brunch.
+- Afternoon Tease — Burleigh Street, Cambridge CB1 1DG. Tearoom and café with coffee, loose-leaf tea, and homemade cakes.
+- Relevant Café Bar — https://relevantcafebar.com/. Café bar in Cambridge serving coffee and drinks; see website for menu, hours, and location.
